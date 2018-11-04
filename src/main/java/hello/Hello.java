@@ -15,4 +15,8 @@ public class Hello extends Application  {
         primaryStage.setHeight(200);
         primaryStage.show();
     }
+
+    public static void main(String[] args) {
+        Application.launch(args);
+    }
 }
